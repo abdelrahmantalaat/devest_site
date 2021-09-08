@@ -1,0 +1,112 @@
+
+navigation .navbar{
+    padding: .9rem;
+}
+
+navigation .navbar-nav li{
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+navigation .nav-link{
+    font-size: 16px !important;
+}
+
+navigation .navbar-brand img{
+    width: 80%;
+    height: 80%;
+}
+
+navigation .fixed-top.scrolled {
+    background-color: #0A0945 !important;
+    transition: background-color 200ms linear;
+}
+.navbar-light .navbar-brand{
+        padding-top: 0rem;
+    padding-bottom: 4rem;
+    margin-right:-25px;
+}
+.nav-line{
+                           width: 80px;
+                            position: relative;
+                          bottom: 43px;
+                           right: 0px;
+                           display:none;
+}
+
+.show{display:block;}
+@media screen and (max-width: 992px){
+    .navbar-light .navbar-brand{
+        padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right:0;
+    }
+    .navbar-light{
+        height:auto !important;
+    }
+    .navbar-light .container-md{
+        margin-top:0 !important;
+    }
+   
+}
+.navbar-dark .navbar-toggler-icon{
+    background-image:url(/public/images/MENU.svg) !important;
+}
+.navbar-dark .navbar-toggler{
+    border-color:#0A0945;
+}
+/* navbar dark */
+
+navigation_dark .navbar{
+    padding: .9rem;
+}
+
+navigation_dark .navbar-nav li{
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+navigation_dark .nav-link{
+    font-size: 1.1em !important;
+}
+.dark-nav .nav-item .nav-link{
+    color:#E2EDFF;
+}
+#nav-light .nav-item .nav-link{
+    color:#0A0945;
+    z-index:1000;
+    position:relative;
+}
+@media screen and (max-width: 600px){
+   #nav-light .nav-item  .nav-line{
+       display:none !important;
+   }
+   .nav-num{
+       display:none;
+   }
+   navigation .navbar-dark {
+       background:#0A0945;
+   }
+}
+@media screen and (max-width: 768px){
+   #nav-light .nav-item  .nav-line{
+       display:none !important;
+   }
+   navigation .navbar-brand img {
+       height: 22px;
+    width: 82px;
+   }
+
+}
+navigation_dark .navbar-brand img{
+    width: 80%;
+    height: 80%;
+}
+
+navigation_dark .fixed-top.scrolled {
+    background-color: white !important;
+    transition: background-color 200ms linear;
+}
+navigation .navbar-nav .nav-num{
+    padding-left:0;
+}
