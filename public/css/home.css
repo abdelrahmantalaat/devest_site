@@ -36,7 +36,9 @@
 
 
 /*general*/
-
+body{
+    margin-bottom: 0 !important;
+}
 .sub-title{
     margin: 0px;
     text-align: right;
@@ -973,7 +975,7 @@ a:hover{
 /*feedbacks*/
 .footer{
     height: auto;
-    min-height: 500px;
+    
     background-size: cover;
     background-position: left;
     position: relative;
@@ -1320,7 +1322,7 @@ a:hover{
 
 .contact_page .section-1{
     position: relative;
-    padding-top: 200px;
+    padding-top: 130px;
     margin: 50px;
 }
 

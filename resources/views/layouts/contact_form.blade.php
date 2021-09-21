@@ -46,7 +46,7 @@
                       </div>
                       <div class="row">
                         <div class="col-md-12 sub-btn">
-                          <button onclick="return gtag_report_conversion();" type="submit" id="submit-btn" class="btn btn-danger" style=" border-radius: 10px; ">ابدأ مشروعك الان</button>
+                          <button  type="submit" id="submit-btn" class="btn btn-danger" style=" border-radius: 10px; ">ابدأ مشروعك الان</button>
                         </div>
                       </div>
                       

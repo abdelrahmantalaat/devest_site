@@ -1,6 +1,6 @@
 
 <!--footer-->
-<div class="container-fluid " style=" background-color: #0A0945; ">
+<div class="container-fluid " style=" background-color: #0A0945; position:fixed;bottom:0">
 <div class="container" style="position: relative; background-color: #0A0945; padding: 20px 0px 10px 0px;">
     <div class="row" style="padding-bottom: 10px">
         <div class="col-md-6 align-items-start">
